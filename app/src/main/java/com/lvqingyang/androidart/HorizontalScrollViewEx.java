@@ -127,6 +127,7 @@ public class HorizontalScrollViewEx extends ViewGroup {
                 break;
             }
         }
+
         mLastInterceptX=mLastX=x;
         mLastInterceptY=mLastY=y;
         if (BuildConfig.DEBUG) Log.d(TAG, "onInterceptTouchEvent: "+isIntercept+" "+x+" "+y);

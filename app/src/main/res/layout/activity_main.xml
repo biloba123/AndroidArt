@@ -5,37 +5,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="32dp"
-    android:background="@color/accent_white">
+    android:padding="32dp">
 
-    <ScrollView
-    android:layout_width="320dp"
-    android:layout_height="match_parent">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/text"/>
-    </ScrollView>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="52dp"
+        android:layout_height="96dp"
+        android:padding="4dp"
+        android:textColor="@color/accent_white"
+        android:text="高等数学@恒大楼一区104"/>
 
-    <android.support.v4.widget.NestedScrollView
-        android:layout_width="320dp"
-        android:layout_height="240dp"
-        android:layout_margin="24dp"
-        android:background="@color/accent_blue">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/accent_white"
-            android:text="@string/text"/>
-    </android.support.v4.widget.NestedScrollView>
-
-    <ScrollView
-        android:layout_width="320dp"
-        android:layout_height="match_parent">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/text"/>
-    </ScrollView>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="52dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="32dp"
+        android:padding="4dp"
+        android:textColor="@color/accent_white"
+        android:text="高等数学@恒大楼一区104"/>
 
 </com.lvqingyang.androidart.HorizontalScrollViewEx>
