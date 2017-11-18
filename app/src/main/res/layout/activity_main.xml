@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lvqingyang.androidart.HorizontalScrollViewEx
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="@color/accent_white">
+
+    <ScrollView
+    android:layout_width="320dp"
+    android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text"/>
+    </ScrollView>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:layout_margin="24dp"
+        android:background="@color/accent_blue">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent_white"
+            android:text="@string/text"/>
+    </android.support.v4.widget.NestedScrollView>
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text"/>
+    </ScrollView>
+
+</com.lvqingyang.androidart.HorizontalScrollViewEx>
